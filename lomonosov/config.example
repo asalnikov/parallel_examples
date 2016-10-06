@@ -1,0 +1,8 @@
+Host lom_digi
+    HostName lomonosov.parallel.ru
+    User userlogin_100500
+    ForwardX11 yes
+    IdentityFile  ~/.ssh/id_rsa
+
+
+
