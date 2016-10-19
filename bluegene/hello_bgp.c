@@ -7,6 +7,9 @@
 #include <unistd.h>
 #include <math.h>
 #include <mpi.h>
+#ifdef _OPENMP
+    #include <omp.h>
+#endif
 
 #define MAX 100000
 
